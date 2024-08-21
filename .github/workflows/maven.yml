@@ -44,5 +44,6 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-        cache: run unit test now
+        cache: maven
+    - name: run unit test now!
       run: mvn -B test
