@@ -1,0 +1,5 @@
+# ignoretarget folder totally
+target 
+
+# ignore all files inside target, but not target...
+/target/** */
